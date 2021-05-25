@@ -77,12 +77,28 @@ docker-compose run php bash
 
 #### Init Application
 
-Enter into php container
-```
-docker-compose run php bash
-```
-
 install dependencies
 ```
 make install
+``` 
+
+#### Tests
+
+Application has been designed using a Test Driven Design approach and PHPUnit
+
+run tests
+```
+make test
+``` 
+
+#### Coding Standards
+
+```
+make cs
+``` 
+
+#### Static Code Analysis
+
+```
+make stan
 ``` 

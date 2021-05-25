@@ -1,3 +1,4 @@
 /app/vendor/
 /app/.phpunit.result.cache
+/app/.php-cs-fixer.cache
 .idea
