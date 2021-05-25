@@ -14,7 +14,7 @@ A EV's position and location is represented by a combination of x and y coordina
 **The area is divided up into a grid to simplify the navigation.** An example position might be 0, 0, N, which means the EV is in the bottom left corner and facing North.
 All the EVs are positionated in the city area, and to represent that we'll get an input like `0, 0, N`, being the first digit the x axis and the second one y axis and the last letter is the direction where the EV is heading.
 Taking into account that the only possible letters are: N, E, S and W.
-The EVs can only receive the following instructions: R, L and M (move forward).
+The EVs can only receive the following instructions: RIGHT, L and M (move forward).
 'R' and 'L' make the rover spin 90 degrees left or right respectively, without moving from its current spot. 'M' means move forward one grid point, and maintain the same heading.
 
 ---

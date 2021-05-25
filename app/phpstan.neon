@@ -4,3 +4,5 @@ parameters:
         - src
         - tests
     checkMissingIterableValueType: false
+    excludes_analyse:
+        - src/Enum/Enum.php
