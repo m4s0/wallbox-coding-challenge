@@ -49,3 +49,40 @@ MMRMMRMRRM
 1 3 N
 5 1 E
 ```
+
+
+# Application
+Application runs with PHP 7.4
+
+#### Docker
+
+```
+cd docker
+```
+
+Build container
+```
+docker-compose build
+```
+
+Run container
+```
+docker-compose up -d
+```
+
+Enter into php container
+```
+docker-compose run php bash
+```
+
+#### Init Application
+
+Enter into php container
+```
+docker-compose run php bash
+```
+
+install dependencies
+```
+make install
+``` 

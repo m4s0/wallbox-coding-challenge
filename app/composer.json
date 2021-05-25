@@ -1,5 +1,9 @@
 {
     "name": "wallbox/wallbox-php-backend-kata",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
     "require": {
         "phpunit/phpunit": "^9.5"
     },
